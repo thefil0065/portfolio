@@ -1,0 +1,45 @@
+* {
+    font-family: 'Source Code Pro', monospace;
+
+}
+
+.bg-custom {
+    background-color: whitesmoke;
+}
+
+.border-custom {
+    border-right: 1px solid lightgray;
+}
+
+@media screen and (max-width: 764px) {
+    .border-custom {
+        border: 0;
+    }
+}
+
+.custom-header {
+    background-color: rgb(131, 247, 105);
+}
+.custom-header-2 {
+    color: rgb(131, 247, 105);
+}
+.border-bottom-custom {
+    border-bottom: 3px solid #83f769;
+}
+ 
+.border-circle-green {
+    border: 2px solid rgb(131, 247, 105);
+    padding: 3px;
+}
+
+.no-list {
+      list-style: none;
+}
+
+.custom-link {
+    color: black;
+}
+
+.custom-link:hover {
+    color: rgb(131, 247, 105);
+}
