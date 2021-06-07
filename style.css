@@ -189,6 +189,10 @@ div.abs {
 }
 
 /* services */
+.card-service {
+  max-width: 500px;
+}
+
 .bg-services {
   background-color: #f3f3f3;
 }
