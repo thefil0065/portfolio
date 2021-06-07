@@ -32,8 +32,8 @@
     padding: 3px;
 }
 
-.no-list {
-      list-style: none;
+.list-custom {
+    list-style: none;
 }
 
 .custom-link {

@@ -11,7 +11,6 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500;600;700;900&display=swap" rel="stylesheet">
   
-  
   <link rel="stylesheet" href="/style.css">
   
   <title>fdev</title>
@@ -28,13 +27,13 @@
       <div class="collapse navbar-collapse" id="navbarsExample04">
         <ul class="navbar-nav ms-auto mb-2 mb-md-0 shadow-custom fw-bold">
           <li class="nav-item mx-3">
-            <a class="nav-link nav-link-custom" href="#">About</a>
+            <a class="nav-link nav-link-custom" href="#about">About</a>
           </li>
           <li class="nav-item mx-3">
-            <a class="nav-link nav-link-custom" href="#">Portfolio</a>
+            <a class="nav-link nav-link-custom" href="#portfolio">Portfolio</a>
           </li>
           <li class="nav-item mx-3">
-            <a class="nav-link nav-link-custom" href="#">Services</a>
+            <a class="nav-link nav-link-custom" href="#servizi">Services</a>
           </li>
         </ul>
       </div>
@@ -53,10 +52,10 @@
             <h1 id="simpleUsage" class="m-0 shadow-custom mb-4"></h1>
           </div>
           <div class="text-white mb-5 shadow-custom">
-            <a href="https://github.com/" class="text-decoration-none"> <i class="fab fa-github fa-2x icon-custom"></i> </a>
-            <a href="https://www.linkedin.com/in/filippo-iacono-03b332213" class="text-decoration-none"> <i class="fab fa-linkedin-in fa-2x icon-custom"></i> </a>
-            <a href="" class="text-decoration-none"><i class="fab fa-twitter fa-2x icon-custom"></i></a>
-            <a href="mailto:f.iacono65@gmail.com" class="text-decoration-none"> <i class="fas fa-envelope fa-2x icon-custom"></i> </a>
+            <a href="https://github.com/thefil0065" target="_blank" class="text-decoration-none"> <i class="fab fa-github fa-2x icon-custom"></i> </a>
+            <a href="https://www.linkedin.com/in/filippo-iacono-03b332213" target="_blank" class="text-decoration-none"> <i class="fab fa-linkedin-in fa-2x icon-custom"></i> </a>
+            <a href="https://twitter.com/TheFil3" target="_blank" class="text-decoration-none"><i class="fab fa-twitter fa-2x icon-custom"></i></a>
+            <a href="mailto:thefil0065@gmail.com" target="_blank" class="text-decoration-none"> <i class="fas fa-envelope fa-2x icon-custom"></i> </a>
           </div>
           <a href="/cv.html" class="btn button-custom" target="_blank">View CV</a>
           <a href="/my-cv.pdf" class="btn button-custom2" download>Download CV</a>
@@ -66,7 +65,7 @@
   </div>
   
   <!-- about -->
-  <section class="container bg-about py-md-5">
+  <section id="about" class="container bg-about py-md-5">
     <div class="row justify-content-center align-items-center py-5">
       <div class="col-12 col-md-6 text-center text-md-start text-about mb-5 mb-md-0 pe-md-5">
         <h2 class="about display-5">About</h2>
@@ -81,7 +80,7 @@
           <i class="fab fa-php fa-3x icon-custom text-dark"></i>
           <i class="fab fa-laravel fa-3x icon-custom text-dark"></i> 
         </div>
-        <a href="/my-cv.pdf" class="btn button-custom3 mt-4" download>Contact me</a>
+        <a href="mailto:thefil0065@gmail.com" class="btn button-custom3 mt-4" download>Contact me</a>
       </div>
       <div class="col-12 col-md-6 p-5 p-md-0">
         <p class="">HTML</p>
@@ -109,7 +108,7 @@
   </section>
   
   <!-- portfolio -->
-  <section class="container-fluid bg-portfolio py-5">
+  <section id="portfolio" class="container-fluid bg-portfolio py-5">
     <div class="row justify-content-center align-items-center">
       <div class="col-12 col-md-6 text-center py-4">
         <h2 class="fw-bold portfolio">Portfolio</h2>
@@ -122,24 +121,20 @@
           <a href="">
             <img src="https://picsum.photos/301" class="img-fluid shadow" alt="">
           </a>
-          
         </div>
         
         <div class="mb-3 me-md-3">
           <a href="">
             <img src="https://picsum.photos/301" class="img-fluid shadow" alt="">
-            
           </a>
-          
         </div>
         
         <div class="mb-3 me-md-3">
           <a href="">
             <img src="https://picsum.photos/301" class="img-fluid shadow" alt="">
-            
           </a>
-          
         </div>
+
         <div class="mb-3 me-md-3 bg-white">
           <a href="">
             <img src="https://picsum.photos/301" class="img-fluid shadow" alt="">
@@ -152,19 +147,19 @@
 </section>
 
 <!-- services -->
-<section class="container-fluid bg-services p-5">
+<section id="servizi" class="container-fluid bg-services p-5">
   <div class="row justify-content-center">
     <div class="col-12 col-md-6 text-center">
       <h2 class="fw-bold services">Services</h2>
     </div>
   </div>
-  <div class="row p-5 my-5 justify-content-center align-items-center">
+  <div class="row p-md-5 my-5 justify-content-center align-items-center">
     <div class="col-12 col-md-6 text-center mb-3">
       <span class="material-icons">
         code
       </span>
       <h3 class="main-color">Web Development</h3>
-      <p>Sviluppo di siti web professionali, partendo dalla progettazione e architettura fino alla progettazione e realizzazione del sito
+      <p>Sviluppo siti e applicazioni web moderne per ogni esigenza, curando ogni dettaglio per raggiungere il miglior risultato. 
       </p>
     </div>
     <div class="col-12 col-md-6 text-center mb-3">
@@ -172,21 +167,22 @@
         devices
       </span>
       <h3 class="main-color">Responsive Web</h3>
-      <p>Crearezione di siti web che si adattano automaticamente a qualsiasi schermata in cui vengono visualizzati</p>
+      <p>Siti web che si adattano automaticamente a qualsiasi schermata in cui vengono visualizzati, tenendo conto della UX/UI</p>
     </div>
     <div class="col-12 col-md-6 text-center mb-3">
       <span class="material-icons">
         local_grocery_store
       </span>
       <h3 class="main-color">E-commerce</h3>
-      <p>Sviluppo di negozio online con Shopify, WooCommerce per vendere online o di persona in Italia e nel mondo</p>
+      <p>Sviluppo di negozio online con Wordpress e WooCommerce per vendere online o di persona in Italia e nel mondo</p>
     </div>
     <div class="col-12 col-md-6 text-center mb-3">
       <span class="material-icons">
         leaderboard
       </span>
-      <h3 class="main-color">Web Marketing</h3>
-      <p>Otimmizare il sito web per migliorarne il posizionamento nei risultati organici dei motori di ricerca </p>
+      <h3 class="main-color">SEO</h3>
+      <p>Otimmizare il sito web per migliorarne il posizionamento nei risultati organici dei motori di ricerca 
+         </p>
     </div>
     
   </div>
@@ -198,10 +194,10 @@
     <div class="col-12 col-md-6">
       <p class="text-white text-center">&lt;Filippo Iacono/&gt;</p>
       <div class="text-white text-center shadow-custom">
-        <a href="https://github.com/" class="text-decoration-none"> <i class="fab fa-github fa-2x icon-custom"></i> </a>
-        <a href="https://it.linkedin.com/" class="text-decoration-none"> <i class="fab fa-linkedin-in fa-2x icon-custom"></i> </a>
-        <a href="mailto:f.iacono65@gmail.com" class="text-decoration-none"> <i class="fas fa-envelope fa-2x icon-custom"></i> </a>
-        <a href="" class="text-decoration-none"><i class="fab fa-twitter fa-2x icon-custom"></i></a>
+        <a href="https://github.com/thefil0065" target="_blank" class="text-decoration-none"> <i class="fab fa-github fa-2x icon-custom"></i> </a>
+        <a href="https://www.linkedin.com/in/filippo-iacono-03b332213" target="_blank" class="text-decoration-none"> <i class="fab fa-linkedin-in fa-2x icon-custom"></i> </a>
+        <a href="mailto:f.iacono65@gmail.com" target="_blank" class="text-decoration-none"> <i class="fas fa-envelope fa-2x icon-custom"></i> </a>
+        <a href="https://twitter.com/TheFil3" target="_blank" class="text-decoration-none"><i class="fab fa-twitter fa-2x icon-custom"></i></a>
       </div>
     </div>
   </div>
